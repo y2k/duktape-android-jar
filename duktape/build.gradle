@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+repositories {
+	maven { url 'https://maven.google.com' }
+}
+
+dependencies {
+  compile 'com.android.support:support-annotations:25.0.0'
+}

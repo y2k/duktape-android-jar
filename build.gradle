@@ -1,0 +1,15 @@
+allprojects {
+  buildscript {
+    repositories {
+      jcenter()
+    }
+  }
+  repositories {
+    jcenter()
+  }
+}
+
+ext {
+  compileSdkVersion = 25
+  buildToolsVersion = '25.0.0'
+}
